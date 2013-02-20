@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032DC21916D557D7002F8AD3 /* libIOKit.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 032DC21816D557D7002F8AD3 /* libIOKit.A.dylib */; };
+		032DC21D16D56652002F8AD3 /* libIOKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 032DC21C16D56652002F8AD3 /* libIOKit.dylib */; };
 		034F2AFD16CBC827006B56F8 /* BTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F2AFC16CBC827006B56F8 /* BTChartView.m */; };
 		034F2AFF16CD11FA006B56F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F2AFE16CD11FA006B56F8 /* MessageUI.framework */; };
 		03E69D8516CBA828006FBA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E69D8416CBA828006FBA1C /* UIKit.framework */; };
@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		032DC21816D557D7002F8AD3 /* libIOKit.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIOKit.A.dylib; path = BatteryChart/libIOKit.A.dylib; sourceTree = "<group>"; };
+		032DC21C16D56652002F8AD3 /* libIOKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIOKit.dylib; path = usr/lib/libIOKit.dylib; sourceTree = SDKROOT; };
 		0348DFA616D0F52C0038ECD4 /* IOPowerSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPowerSources.h; sourceTree = "<group>"; };
 		0348DFA716D0F52C0038ECD4 /* IOPSKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPSKeys.h; sourceTree = "<group>"; };
 		034F2AFB16CBC827006B56F8 /* BTChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChartView.h; sourceTree = "<group>"; };
@@ -57,11 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032DC21D16D56652002F8AD3 /* libIOKit.dylib in Frameworks */,
 				03E69D8516CBA828006FBA1C /* UIKit.framework in Frameworks */,
 				03E69D8716CBA828006FBA1C /* Foundation.framework in Frameworks */,
 				03E69D8916CBA828006FBA1C /* CoreGraphics.framework in Frameworks */,
 				034F2AFF16CD11FA006B56F8 /* MessageUI.framework in Frameworks */,
-				032DC21916D557D7002F8AD3 /* libIOKit.A.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		03E69D8316CBA828006FBA1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				032DC21816D557D7002F8AD3 /* libIOKit.A.dylib */,
+				032DC21C16D56652002F8AD3 /* libIOKit.dylib */,
 				03E69D8416CBA828006FBA1C /* UIKit.framework */,
 				03E69D8616CBA828006FBA1C /* Foundation.framework */,
 				03E69D8816CBA828006FBA1C /* CoreGraphics.framework */,
