@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032DC21916D557D7002F8AD3 /* libIOKit.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 032DC21816D557D7002F8AD3 /* libIOKit.A.dylib */; };
+		034F2AFD16CBC827006B56F8 /* BTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F2AFC16CBC827006B56F8 /* BTChartView.m */; };
+		034F2AFF16CD11FA006B56F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F2AFE16CD11FA006B56F8 /* MessageUI.framework */; };
+		03E69D8516CBA828006FBA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E69D8416CBA828006FBA1C /* UIKit.framework */; };
+		03E69D8716CBA828006FBA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E69D8616CBA828006FBA1C /* Foundation.framework */; };
+		03E69D8916CBA828006FBA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E69D8816CBA828006FBA1C /* CoreGraphics.framework */; };
+		03E69D8F16CBA828006FBA1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E69D8D16CBA828006FBA1C /* InfoPlist.strings */; };
+		03E69D9116CBA828006FBA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E69D9016CBA828006FBA1C /* main.m */; };
+		03E69D9516CBA828006FBA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E69D9416CBA828006FBA1C /* AppDelegate.m */; };
+		03E69D9716CBA828006FBA1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E69D9616CBA828006FBA1C /* Default.png */; };
+		03E69D9916CBA828006FBA1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E69D9816CBA828006FBA1C /* Default@2x.png */; };
+		03E69D9B16CBA828006FBA1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E69D9A16CBA828006FBA1C /* Default-568h@2x.png */; };
+		03E69D9E16CBA829006FBA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E69D9D16CBA829006FBA1C /* ViewController.m */; };
+		03E69DA116CBA829006FBA1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E69D9F16CBA829006FBA1C /* ViewController.xib */; };
+		03E69DAC16CBB26A006FBA1C /* BTMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E69DAB16CBB26A006FBA1C /* BTMeasure.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032DC21816D557D7002F8AD3 /* libIOKit.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIOKit.A.dylib; path = BatteryChart/libIOKit.A.dylib; sourceTree = "<group>"; };
+		0348DFA616D0F52C0038ECD4 /* IOPowerSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPowerSources.h; sourceTree = "<group>"; };
+		0348DFA716D0F52C0038ECD4 /* IOPSKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPSKeys.h; sourceTree = "<group>"; };
+		034F2AFB16CBC827006B56F8 /* BTChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChartView.h; sourceTree = "<group>"; };
+		034F2AFC16CBC827006B56F8 /* BTChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTChartView.m; sourceTree = "<group>"; };
+		034F2AFE16CD11FA006B56F8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		03E69D8116CBA828006FBA1C /* BatteryChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E69D8416CBA828006FBA1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03E69D8616CBA828006FBA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03E69D8816CBA828006FBA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03E69D8C16CBA828006FBA1C /* BatteryChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatteryChart-Info.plist"; sourceTree = "<group>"; };
+		03E69D8E16CBA828006FBA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03E69D9016CBA828006FBA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E69D9216CBA828006FBA1C /* BatteryChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BatteryChart-Prefix.pch"; sourceTree = "<group>"; };
+		03E69D9316CBA828006FBA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E69D9416CBA828006FBA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E69D9616CBA828006FBA1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03E69D9816CBA828006FBA1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03E69D9A16CBA828006FBA1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		03E69D9C16CBA829006FBA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03E69D9D16CBA829006FBA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03E69DA016CBA829006FBA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		03E69DAA16CBB26A006FBA1C /* BTMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMeasure.h; sourceTree = "<group>"; };
+		03E69DAB16CBB26A006FBA1C /* BTMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMeasure.m; sourceTree = "<group>"; };
+		03E69DAD16CBBC14006FBA1C /* UIStatusBarServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIStatusBarServer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E69D7E16CBA828006FBA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E69D8516CBA828006FBA1C /* UIKit.framework in Frameworks */,
+				03E69D8716CBA828006FBA1C /* Foundation.framework in Frameworks */,
+				03E69D8916CBA828006FBA1C /* CoreGraphics.framework in Frameworks */,
+				034F2AFF16CD11FA006B56F8 /* MessageUI.framework in Frameworks */,
+				032DC21916D557D7002F8AD3 /* libIOKit.A.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E69D7816CBA828006FBA1C = {
+			isa = PBXGroup;
+			children = (
+				03E69D8A16CBA828006FBA1C /* BatteryChart */,
+				03E69D8316CBA828006FBA1C /* Frameworks */,
+				03E69D8216CBA828006FBA1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E69D8216CBA828006FBA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E69D8116CBA828006FBA1C /* BatteryChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E69D8316CBA828006FBA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032DC21816D557D7002F8AD3 /* libIOKit.A.dylib */,
+				03E69D8416CBA828006FBA1C /* UIKit.framework */,
+				03E69D8616CBA828006FBA1C /* Foundation.framework */,
+				03E69D8816CBA828006FBA1C /* CoreGraphics.framework */,
+				034F2AFE16CD11FA006B56F8 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03E69D8A16CBA828006FBA1C /* BatteryChart */ = {
+			isa = PBXGroup;
+			children = (
+				0348DFA616D0F52C0038ECD4 /* IOPowerSources.h */,
+				0348DFA716D0F52C0038ECD4 /* IOPSKeys.h */,
+				03E69DAA16CBB26A006FBA1C /* BTMeasure.h */,
+				03E69DAB16CBB26A006FBA1C /* BTMeasure.m */,
+				03E69D9316CBA828006FBA1C /* AppDelegate.h */,
+				03E69D9416CBA828006FBA1C /* AppDelegate.m */,
+				03E69DAD16CBBC14006FBA1C /* UIStatusBarServer.h */,
+				03E69D9C16CBA829006FBA1C /* ViewController.h */,
+				03E69D9D16CBA829006FBA1C /* ViewController.m */,
+				03E69D9F16CBA829006FBA1C /* ViewController.xib */,
+				034F2AFB16CBC827006B56F8 /* BTChartView.h */,
+				034F2AFC16CBC827006B56F8 /* BTChartView.m */,
+				03E69D8B16CBA828006FBA1C /* Supporting Files */,
+			);
+			path = BatteryChart;
+			sourceTree = "<group>";
+		};
+		03E69D8B16CBA828006FBA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E69D8C16CBA828006FBA1C /* BatteryChart-Info.plist */,
+				03E69D8D16CBA828006FBA1C /* InfoPlist.strings */,
+				03E69D9016CBA828006FBA1C /* main.m */,
+				03E69D9216CBA828006FBA1C /* BatteryChart-Prefix.pch */,
+				03E69D9616CBA828006FBA1C /* Default.png */,
+				03E69D9816CBA828006FBA1C /* Default@2x.png */,
+				03E69D9A16CBA828006FBA1C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E69D8016CBA828006FBA1C /* BatteryChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E69DA416CBA829006FBA1C /* Build configuration list for PBXNativeTarget "BatteryChart" */;
+			buildPhases = (
+				03E69D7D16CBA828006FBA1C /* Sources */,
+				03E69D7E16CBA828006FBA1C /* Frameworks */,
+				03E69D7F16CBA828006FBA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryChart;
+			productName = BatteryChart;
+			productReference = 03E69D8116CBA828006FBA1C /* BatteryChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E69D7916CBA828006FBA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nicolas Seriot";
+			};
+			buildConfigurationList = 03E69D7C16CBA828006FBA1C /* Build configuration list for PBXProject "BatteryChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03E69D7816CBA828006FBA1C;
+			productRefGroup = 03E69D8216CBA828006FBA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E69D8016CBA828006FBA1C /* BatteryChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E69D7F16CBA828006FBA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E69D8F16CBA828006FBA1C /* InfoPlist.strings in Resources */,
+				03E69D9716CBA828006FBA1C /* Default.png in Resources */,
+				03E69D9916CBA828006FBA1C /* Default@2x.png in Resources */,
+				03E69D9B16CBA828006FBA1C /* Default-568h@2x.png in Resources */,
+				03E69DA116CBA829006FBA1C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E69D7D16CBA828006FBA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E69D9116CBA828006FBA1C /* main.m in Sources */,
+				03E69D9516CBA828006FBA1C /* AppDelegate.m in Sources */,
+				03E69D9E16CBA829006FBA1C /* ViewController.m in Sources */,
+				03E69DAC16CBB26A006FBA1C /* BTMeasure.m in Sources */,
+				034F2AFD16CBC827006B56F8 /* BTChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E69D8D16CBA828006FBA1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E69D8E16CBA828006FBA1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03E69D9F16CBA829006FBA1C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E69DA016CBA829006FBA1C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E69DA216CBA829006FBA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03E69DA316CBA829006FBA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E69DA516CBA829006FBA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryChart/BatteryChart-Prefix.pch";
+				INFOPLIST_FILE = "BatteryChart/BatteryChart-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/BatteryChart\"",
+				);
+				PRODUCT_NAME = BatteryChart;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03E69DA616CBA829006FBA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryChart/BatteryChart-Prefix.pch";
+				INFOPLIST_FILE = "BatteryChart/BatteryChart-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/BatteryChart\"",
+				);
+				PRODUCT_NAME = BatteryChart;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E69D7C16CBA828006FBA1C /* Build configuration list for PBXProject "BatteryChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E69DA216CBA829006FBA1C /* Debug */,
+				03E69DA316CBA829006FBA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E69DA416CBA829006FBA1C /* Build configuration list for PBXNativeTarget "BatteryChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E69DA516CBA829006FBA1C /* Debug */,
+				03E69DA616CBA829006FBA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E69D7916CBA828006FBA1C /* Project object */;
+}
