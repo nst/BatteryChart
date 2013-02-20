@@ -58,7 +58,9 @@ Data showing a full charge / discharge cycle are available in the `/data/` direc
 
 #### Charts
 
-Here are two charts showing the full discharge / recharge:
+Here are two charts showing the full discharge / recharge.
+
+The charts are plotted with the matplotlib Python library. The code is available in the `data` directory.
 
 <img src="data/battery_1.png" border="1">
 <img src="data/battery_2.png" border="1">
